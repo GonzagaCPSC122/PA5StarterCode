@@ -39,6 +39,8 @@ Interpretation:
 * You can look at the call to `answerIntegerQuestions()` that produced this value of `isMultiple` to see what the input arguments to `answerIntegerQuestions()` were
     * This will help you debug your own code with the goal of producing the expected value given the input
 
+## To Run Valgrind to Check for Memory Leaks
+`valgrind --leak-check=yes ./runPA#` where # is this PA's number
 
 ## What to Modify and What not to Modify
 You may modify:
