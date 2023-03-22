@@ -71,5 +71,5 @@ void runMusicManager() {
 			executeUserChoice(choice, lib);
 		}
 	} while (choice != QUIT_OPTION);
-	cout << "Thanks for you using the CPSC 122 Music Manager!!" << endl;
+	cout << "Thanks for using the CPSC 122 Music Manager!!" << endl;
 }
